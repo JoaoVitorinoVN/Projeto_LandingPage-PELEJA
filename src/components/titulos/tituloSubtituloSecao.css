@@ -1,0 +1,28 @@
+
+.titulos {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 60px;
+    margin: 50px 5px 10px 5px;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+
+h2 {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 24px;
+}
