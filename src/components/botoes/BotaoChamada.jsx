@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './BotaoChamada.css'
+
 const Button = ({ texto }) => {
     return (
         <button>

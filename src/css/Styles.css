@@ -14,22 +14,14 @@
     font-family: "Inter", sans-serif;
 }
 
-button {
-    background-color: var(--red);
-    color: var(--white);
-    width: 360px;
-    padding: 30px 40px;
-    font-size: 30px;
-    border: none;
-    border-radius: 20px;
-    user-select: none;
-    transition: 500ms;
-    transform: scale(0.9);
-    font-weight: bold;
+
+section > div {
+    max-width: 1440px;
+    margin: auto;
 }
 
-button:hover {
-    filter: brightness(1.5);
-    cursor: pointer;
-    transform: scale(1);
+header > div {
+    max-width: 1440px;
+    margin: auto;
 }
+

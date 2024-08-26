@@ -1,6 +1,6 @@
 import React from 'react'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import logo from '../assets/peleja.png'
+import logo from '../../assets/peleja.png'
 
 const Whatsapp = () => {
     const whatsappAssets = {

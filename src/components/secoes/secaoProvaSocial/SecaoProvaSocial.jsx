@@ -1,21 +1,25 @@
 import React from 'react'
-import TituloSubtituloSecao from '../titulos/TituloSubtituloSecao'
-import ProvaSocial from '../clientes/ProvaSocial'
+import TituloSubtituloSecao from '../../titulos/TituloSubtituloSecao'
+import ProvaSocial from '../../clientes/ProvaSocial'
 import './secaoProvaSocial.css'
-import Wave from '../ondas/Wave'
+import Wave from '../../ondas/Wave'
 
 function SecaoProvaSocial() {
 
   const titulos = { titulo: "Para clientes exigentes: PELEJA!", subtitulo: "Venha conhecer alguns dos nossos produtos mais vendidos!" }
 
   return (
-    <div>
-      <Wave />
+    <div className='div-pai-prova-social'>
+     <Wave />
       <section className='secao-prova-social'>
+      
+        <div>
+          <TituloSubtituloSecao titulos={titulos} />
 
-        <TituloSubtituloSecao titulos={titulos} />
+          <ProvaSocial />
+        </div>
 
-        <ProvaSocial />
+
       </section>
 
     </div>

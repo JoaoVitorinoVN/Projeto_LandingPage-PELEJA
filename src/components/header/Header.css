@@ -1,5 +1,6 @@
-@import url('./Styles.css');
-
+header {
+    background-color: #000;
+}
 .cabecalho {
     padding: 10px 50px;
     color: var(--white);
