@@ -3,6 +3,7 @@ import TituloSubtituloSecao from '../../titulos/TituloSubtituloSecao'
 import ProvaSocial from '../../clientes/ProvaSocial'
 import './secaoProvaSocial.css'
 import Wave from '../../ondas/Wave'
+import WaveProvaSocialBottom from '../../ondas/WaveProvaSocialBottom'
 
 function SecaoProvaSocial() {
 
@@ -19,8 +20,11 @@ function SecaoProvaSocial() {
           <ProvaSocial />
         </div>
 
-
+        
       </section>
+
+      <WaveProvaSocialBottom />
+     
 
     </div>
   )
