@@ -12,12 +12,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+
 }
 
 
+
 section > div {
-    max-width: 1440px;
-    margin: auto;
+  max-width: 1440px;
+  margin: auto;
 }
 
 header > div {

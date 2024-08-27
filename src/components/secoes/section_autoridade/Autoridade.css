@@ -5,17 +5,17 @@
     gap: 12px;
     padding: 24px;
 }
-h2{
+.autoridade h2{
     font-weight: 800;
     font-size: 60px;
     color: #372B2B;
 }
-h3{
+.autoridade h3{
     font-weight: 400;
     font-size: 24px;
     color: #5E5E5E;
 }
-hr{
+.autoridade hr{
     width: 40%;
     margin: auto;
     height: 3px;
