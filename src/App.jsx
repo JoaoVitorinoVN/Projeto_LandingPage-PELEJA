@@ -5,6 +5,7 @@ import SecaoChamada from './components/secoes/secaoChamada/SecaoChamada.jsx'
 import Header from './components/header/Header.jsx'
 import './css/Styles.css'
 import Whatsapp from './components/whatsapp/Whatsapp.jsx'
+import SecaoFormulario from './components/secoes/secaoFormulario/SecaoFormulario.jsx'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <SecaoChamada />
       <SecaoProvaSocial />
+      <SecaoFormulario />
       <Whatsapp />
     </>
 

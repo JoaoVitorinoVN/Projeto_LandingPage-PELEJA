@@ -15,7 +15,7 @@ const items = [
 
 function Autoridade() {
     return (
-        <section>
+        <section className='autoridade'>
             <div className='box-titulo'>
                 <h2>Conheça a Peleja</h2>
                 <hr/>

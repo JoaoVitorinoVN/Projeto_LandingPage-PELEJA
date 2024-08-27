@@ -1,0 +1,77 @@
+.secao-formulario {
+    background-image: url('../../../assets/backgroundForm.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.856);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conteudo-secao h2 {
+    font-size: 64px;
+    font-weight: 800;
+    color: #F5F5F5;
+    margin: 0px 0px 20px 0px;
+
+}
+
+.conteudo-secao h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #F5F5F5;
+}
+
+
+.conteudo-secao {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.titulo-conteudo, .formulario {
+    display: flex;
+    margin: 30px;
+}
+
+.titulo-conteudo {
+    flex-direction: column;
+    width: 50%;
+}
+
+.formulario {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #F5F5F5;
+    transition: 0.5s;
+
+}
+
+.formulario input:focus {
+    background-color: rgba(0, 0, 0, 0.438);
+    color: #F5F5F5;
+}
+
+.formulario ::placeholder {
+    color: rgba(0, 0, 0, 0.493);
+    font-weight: 700;
+}
+
+.formulario>div {
+    display: flex;
+    width: 100%;
+}

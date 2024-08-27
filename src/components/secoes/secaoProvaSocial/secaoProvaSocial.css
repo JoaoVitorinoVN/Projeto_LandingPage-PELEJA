@@ -5,16 +5,16 @@
 .secao-prova-social {
     background-color: #372B2B;
     padding: 20px;
-    
+
 }
 
-h1,
+.secao-prova-social h1,
 h2 {
     color: #F5F5F5;
     font-weight: 800;
 }
 
-hr {
+.secao-prova-social hr {
     background-color: #F5F5F5;
 
 }
