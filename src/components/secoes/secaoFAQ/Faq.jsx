@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { FaAngleDown } from 'react-icons/fa';
 import './Faq.css';
 import TituloSubtituloSecao from '../../titulos/TituloSubtituloSecao';
-import WaveFAQ from '../../ondas/WaveFAQ';
 
 
 const data = [
@@ -32,7 +31,6 @@ const FaqItem = ({ title, content }) => {
   const [open, setOpen] = useState(false);
 
   return (
-
     <div className="faq-item">
       <div
         className="title"
@@ -87,9 +85,6 @@ const Faq = () => {
     </div>
     <p className='p-nao-encontrou'>Não encontrou o que procurava? Entre em contato conosco e ficaremos felizes em ajudar</p>
     </div>
-
-    <WaveFAQ />
-   
     </section>
     
 

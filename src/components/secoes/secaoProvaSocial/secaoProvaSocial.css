@@ -1,11 +1,7 @@
-.div-pai-prova-social {
-    margin-top: -15vh;
-}
-
 .secao-prova-social {
     background-color: #372B2B;
     padding: 20px;
-
+    height: 900px;
 }
 
 .secao-prova-social h1,
@@ -16,7 +12,6 @@ h2 {
 
 .secao-prova-social hr {
     background-color: #F5F5F5;
-
 }
 
 
