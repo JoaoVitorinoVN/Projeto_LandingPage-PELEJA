@@ -1,13 +1,11 @@
 import React from 'react'
 import './SecaoFormulario.css'
 import Button from '../../botoes/BotaoChamada'
-import WaveFAQ from '../../ondas/WaveFAQ'
 
 
 function SecaoFormulario() {
     return (
         <section className='secao-formulario'>
-
             <div className='conteudo-secao'>
                 <div className='titulo-conteudo'>
                     <h2>Deixe-nos PELEJAR por você!</h2>
