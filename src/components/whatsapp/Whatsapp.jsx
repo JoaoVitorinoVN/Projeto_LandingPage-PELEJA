@@ -1,6 +1,6 @@
 import React from 'react'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import logo from '../../assets/peleja.png'
+import logo from '../../assets/pelejaIcon.png'
 
 const Whatsapp = () => {
     const whatsappAssets = {
@@ -8,7 +8,7 @@ const Whatsapp = () => {
         nome: "Peleja",
         status: "Resposta em aproximadamente 1 hora",
         mensagem: "Olá! Como posso ajudar?",
-        placeholder: "Mande sua mensagem..."
+        placeholder: "Mensagem..."
     }
 
     return (

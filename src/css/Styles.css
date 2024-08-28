@@ -3,6 +3,7 @@
 :root {
     --white: #F5F5F5;
     --brown: #372B2B;
+    --black: #131313;
     --red: #D30D0D;
     --reddish: #850A0A;
 }
@@ -14,9 +15,12 @@
     font-family: "Inter", sans-serif;
 }
 
+section {
+    height: 100vh;
+}
 
-section > div:nth-child(1) {
-    max-width: 1440px;
+section > div {
+  max-width: 1440px;
   margin: auto;
 }
 
