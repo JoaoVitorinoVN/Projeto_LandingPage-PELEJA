@@ -1,5 +1,5 @@
 import React from 'react';
-import TituloSubtituloSecao from '../titulos/TituloSubtituloSecao';
+import TituloSubtituloSecao from '../../titulos/TituloSubtituloSecao';
 import './Autoridade.css';
 import IconItem from './IconItem';
 import Carrossel from './carrossel/Carrossel';
@@ -18,10 +18,9 @@ const items = [
 
 function Autoridade() {
     return (
-        <section>
-            <div className='secao'>
+        <section className='sectio-autoridade'> 
 
-            </div>
+        <div className='box-section'>
             <div className='box-titulo'>
                 <TituloSubtituloSecao titulos={titulos}/>
             </div>
@@ -30,6 +29,7 @@ function Autoridade() {
                 <p className='texto'>
                     A PELEJA é uma empresa de representação comercial situada em Uberlândia, dedicada a fornecer soluções inovadoras e personalizadas para o crescimento e sucesso de seus clientes. Com uma abordagem multifacetada, oferecemos atendimentos através de canais digitais, telemarketing, WhatsApp e presencial, garantindo que nossas estratégias de vendas e marketing estejam sempre alinhadas com as necessidades específicas de cada cliente.
                 </p>
+
                 <div className='container-carrossel'>
                     <Carrossel/>
                 </div>
@@ -39,6 +39,7 @@ function Autoridade() {
                 {items.map(item => (
                     <IconItem key={item.id} imgSrc={item.imgSrc} text={item.text} />
                 ))}
+            </div>
             </div>
         </section>
     );
