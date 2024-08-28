@@ -8,7 +8,7 @@ const Whatsapp = () => {
         nome: "Peleja",
         status: "Resposta em aproximadamente 1 hora",
         mensagem: "Olá! Como posso ajudar?",
-        placeholder: "Mensagem..."
+        placeholder: "Mande sua mensagem..."
     }
 
     return (

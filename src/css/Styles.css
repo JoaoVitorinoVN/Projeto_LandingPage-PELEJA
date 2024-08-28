@@ -6,6 +6,7 @@
     --black: #131313;
     --red: #D30D0D;
     --reddish: #850A0A;
+    --yellow: #F1BA0A;  
 }
 
 * {
@@ -15,13 +16,10 @@
     font-family: "Inter", sans-serif;
 }
 
-section {
-    height: 100vh;
-}
 
-section > div {
-  max-width: 1440px;
-  margin: auto;
+section > div:nth-child(1) {
+    max-width: 1440px;
+    margin: auto;
 }
 
 header > div {
