@@ -2,7 +2,7 @@
     background-image: url('../../../assets/backgroundForm.png');
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.856);
+    background-color: rgba(0, 0, 0, 0.963);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -52,8 +52,8 @@
     width: 100%;
     border: none;
     outline: none;
-    padding: 20px;
-    margin: 5px;
+    padding: 18px;
+    margin: 8px;
     border-radius: 10px;
     font-size: 20px;
     background-color: #F5F5F5;
@@ -71,7 +71,22 @@
     font-weight: 700;
 }
 
+.formulario input:focus::placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
 .formulario>div {
     display: flex;
     width: 100%;
 }
+
+.formulario button:hover {
+    background-color: #520606;
+    transform: scale(0.9);
+}
+
+.formulario  button:active {
+    scale: 0.8;
+}
+
