@@ -52,6 +52,8 @@
 }
 
 .secao-faq {
+  z-index: 2;
+  height: 80vh;
   background-color: #F1BA0A;
   margin-top: -5px;
   width: 100%;
@@ -75,6 +77,21 @@
   margin-right: 30px;
 
 }
+
+.p-nao-encontrou {
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+.wave-faq {
+  margin-top: 7vh;
+}
+
 
 
 

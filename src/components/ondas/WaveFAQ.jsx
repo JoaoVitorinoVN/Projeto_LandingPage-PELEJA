@@ -3,10 +3,7 @@ import React from 'react'
 function WaveFAQ() {
     return (
         <div className='wave-faq'>
-            <svg viewBox="0 0 904 155" xmlns="http://www.w3.org/2000/svg">
-                <path fill="#F1BA0A" d="M 0 87 C 216 87 144 85 360 85 L 360 85 L 360 0 L 0 0 Z" stroke-width="0"></path>
-                <path fill="#F1BA0A" d="M 359 85 C 686 85 577 131 904 131 L 904 131 L 904 0 L 359 0 Z" stroke-width="0"></path>
-            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F1BA0A" fill-opacity="1" d="M0,224L80,202.7C160,181,320,139,480,133.3C640,128,800,160,960,160C1120,160,1280,128,1360,112L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
         </div>
     )
 }
