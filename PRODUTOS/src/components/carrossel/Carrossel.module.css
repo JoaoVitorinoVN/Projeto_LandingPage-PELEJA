@@ -1,0 +1,82 @@
+.carouselContainer {
+  width: 100%;
+  margin: auto; /* Centraliza o carrossel */
+  padding: 0 10px; /* Adiciona padding para evitar ultrapassagem */
+  box-sizing: border-box; /* Inclui padding e bordas na largura total do elemento */
+}
+
+/* Ajustes responsivos */
+@media (max-width: 1024px) {
+  .carouselContainer {
+    padding: 0 5px; /* Ajusta o padding em telas menores */
+  }
+}
+
+@media (max-width: 768px) {
+  .carouselContainer {
+    padding: 0 2px; /* Ajusta o padding em telas menores */
+  }
+}
+
+.carouselItem {
+  height: 450px; /* Altura total do item do carrossel */
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites do item */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Garante que o conteúdo fique alinhado ao fundo */
+}
+
+.carouselImageContainer {
+  height: 70%; /* Ajusta a altura da área da imagem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden; /* Garante que a imagem não ultrapasse os limites do contêiner */
+  margin: 0 10px; /* Adiciona margem lateral para evitar ultrapassagem */
+  box-sizing: border-box; /* Inclui padding e bordas na largura total do elemento */
+}
+
+.carouselImage {
+  height: auto; /* Mantém a proporção da imagem */
+  max-height: 100%; /* Garante que a imagem não ultrapasse a altura do contêiner */
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  object-fit: cover; /* Ajusta a imagem para cobrir o contêiner mantendo a proporção */
+  border-radius: 20px;
+}
+
+.carouselButton {
+  background-color: #250001; /* Índigo escuro */
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 0; /* Ajuste o espaçamento conforme necessário */
+}
+
+.carouselButton:hover {
+  background-color: #640003; /* Índigo mais claro */
+}
+
+/* Consultas de mídia para ajustar o carrossel em diferentes tamanhos de tela */
+@media (max-width: 1024px) {
+  .carouselItem {
+    height: 400px; /* Ajuste a altura do item do carrossel para telas menores */
+  }
+}
+
+@media (max-width: 768px) {
+  .carouselItem {
+    height: 300px; /* Ajuste a altura do item do carrossel para telas menores */
+  }
+
+  .carouselButton {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
