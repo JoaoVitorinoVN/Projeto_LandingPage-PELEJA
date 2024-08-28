@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+.accordion {
+  width: 80%;
+  background-color: #F1BA0A;
+  margin: 30px auto;
+}
+
+.faq-item {
+  margin-bottom: 0; /* Remove o espaço entre as caixas */
+}
+
+.title {
+  height: auto;
+  width: 100%;
+  background-color: #E9DA6E;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 800;
+  padding: 15px;
+  border: 1px solid #E9DA6E;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  box-sizing: border-box; /* Garante que a largura total inclui bordas e padding */
+}
+
+.title:hover {
+  background-color: #E9DA6E;
+}
+
+.content {
+  width: 100%;
+  background-color: #FFFFFF;/* Adiciona borda para igualar com o título */
+  border-top: none; /* Remove a borda superior para evitar duplicação com a borda da .title */
+  box-sizing: border-box; /* Garante que a largura total inclui bordas e padding */
+}
+
+.content-text {
+  color: #000000; /* Garante que o texto é preto */
+  font-size: 18px; /* Aumenta o tamanho da fonte para melhorar a legibilidade */
+  line-height: 1.5;
+  padding: 15px;
+  margin: 0; /* Remove qualquer margem adicional */
+}
+
+.secao-faq {
+  background-color: #F1BA0A;
+  margin-top: -5px;
+  width: 100%;
+}
+
+.secao-faq .titulos {
+  padding: 0px;
+
+
+  h1 {
+    width: 100%;
+    text-align: end;
+    font-size: 60px;
+  }
+
+  hr {
+    margin-right: 0px;
+    height: 1px;
+  }
+
+  margin-right: 30px;
+
+}
+
+
+
+
+
+
