@@ -1,6 +1,8 @@
 import React from 'react'
 import './SecaoFormulario.css'
 import Button from '../../botoes/BotaoChamada'
+import WaveFAQ from '../../ondas/WaveFAQ'
+
 
 function SecaoFormulario() {
     return (

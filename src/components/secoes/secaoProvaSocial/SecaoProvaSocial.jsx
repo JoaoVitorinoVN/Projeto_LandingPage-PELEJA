@@ -25,7 +25,6 @@ function SecaoProvaSocial() {
 
       <WaveProvaSocialBottom />
      
-
     </div>
   )
 }
