@@ -1,11 +1,14 @@
 import React from 'react';
+import TituloSubtituloSecao from '../titulos/TituloSubtituloSecao';
 import './Autoridade.css';
 import IconItem from './IconItem';
-import Carrossel from '../carrossel/Carrossel';
+import Carrossel from './carrossel/Carrossel';
 
-import iconVisao from './img/icon-visao.png';
 import iconMissao from './img/icon-missao.png';
-import iconValores from './img/icon-valores.png'
+import iconValores from './img/icon-valores.png';
+import iconVisao from './img/icon-visao.png';
+
+const titulos = {titulo: 'Conheça a Peleja', subtitulo: 'Saiba um pouco sobre a nossa história'}
 
 const items = [
     { id: 1, imgSrc: iconVisao, text: 'Compromisso com Excelência' },
@@ -15,11 +18,12 @@ const items = [
 
 function Autoridade() {
     return (
-        <section className='autoridade'>
+        <section>
+            <div className='secao'>
+
+            </div>
             <div className='box-titulo'>
-                <h2>Conheça a Peleja</h2>
-                <hr/>
-                <h3>Saiba um pouco sobre a nossa história</h3>
+                <TituloSubtituloSecao titulos={titulos}/>
             </div>
 
             <div className='box-info'>

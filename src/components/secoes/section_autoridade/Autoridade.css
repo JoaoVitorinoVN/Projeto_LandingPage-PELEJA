@@ -1,3 +1,4 @@
+
 .box-titulo{
     text-align: center;
     display: flex;
@@ -5,31 +6,31 @@
     gap: 12px;
     padding: 24px;
 }
-.autoridade h2{
+h2{
     font-weight: 800;
     font-size: 60px;
     color: #372B2B;
 }
-.autoridade h3{
+h3{
     font-weight: 400;
     font-size: 24px;
     color: #5E5E5E;
 }
-.autoridade hr{
+hr{
     width: 40%;
     margin: auto;
     height: 3px;
     background-color: black;
 }
 .box-info{
-    width: 70%;
+    max-width: 1440px;
+    width: 90%;
     padding: 48px;
     margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 48px;
 }
 .texto{
     color: #372B2B;
@@ -38,6 +39,9 @@
     text-align: justify;
     padding: 24px;
     width: 60%;
+}
+.container-carrossel{
+    width: 40%;
 }
 .box-icons{
     color: #372B2B;
