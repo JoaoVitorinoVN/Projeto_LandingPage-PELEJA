@@ -21,6 +21,7 @@ function App() {
       <Autoridade />
       <Marcas />
       <SecaoProvaSocial />
+      <Faq />
       <SecaoFormulario />
       <Footer />
       <Whatsapp />
