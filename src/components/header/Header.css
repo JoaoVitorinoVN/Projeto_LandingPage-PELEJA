@@ -1,21 +1,22 @@
-header {
+.header {
     background-color: #000;
 }
 .cabecalho {
-    padding: 10px 2px;
+    padding: 10px;
     color: var(--white);
     background-color: black;
     display: flex;
-    width: 100vw;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     user-select: none;
-    box-shadow: 0px 5px 5px black;
 }
 
 .cabecalho a,
 .cabecalho a:visited {
+    display: flex;
+    align-items: center;
+    align-content: center;
     color: var(--white);
     font-weight: 900;
     text-decoration: none;
@@ -44,7 +45,10 @@ header {
 
 .dropdownMenu {
     position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
 }
 
 .dropdownContent {
@@ -54,7 +58,9 @@ header {
     min-width: 160px;
     box-shadow: 0px 5px 10px #00000033;
     padding: 12px 16px;
+    padding-top: 20px;
     z-index: 1;
+    top: 20px;
 }
 
 .dropdownMenu:hover .dropdownContent {
@@ -62,3 +68,4 @@ header {
     flex-direction: column;
     align-items: center;
 }
+.dropdownContent a { margin-top: 5px; }

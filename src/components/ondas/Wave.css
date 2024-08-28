@@ -1,24 +1,46 @@
 /* Wave.css */
-.wave {
-  margin: 0;
-  padding: 0;
-  display: block;
-  margin-bottom: -2px;
-}
 
-.wave svg {
-  display: block;
-  margin: 0;
-  padding: 0;
+.wave-top {
+  margin-bottom: -80px;
+  position: relative;
+  top: 0px;
+  left: 0;
   width: 100%;
-  height: auto;
-  transform: rotateX(180deg);
-  margin: 0;
+  overflow: hidden;
+  line-height: 0;
 }
 
-.waveProvaSocialBottom {
-  transform: rotateX(180deg);
-  margin-top: -vh;
-  background-color: #372B2B;
-  margin-top: -1px;
+.wave-top svg {
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 80px;
 }
+
+.wave-bottom {
+  margin-top: -80px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+}
+
+.yellow {
+  fill: var(--yellow);
+}
+.brown {
+  fill: var(--brown);
+}
+.black {
+  fill: var(--black);
+}
+

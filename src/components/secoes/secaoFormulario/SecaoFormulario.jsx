@@ -2,10 +2,10 @@ import React from 'react'
 import './SecaoFormulario.css'
 import Button from '../../botoes/BotaoChamada'
 
+
 function SecaoFormulario() {
     return (
         <section className='secao-formulario'>
-
             <div className='conteudo-secao'>
                 <div className='titulo-conteudo'>
                     <h2>Deixe-nos PELEJAR por você!</h2>

@@ -1,4 +1,4 @@
-.button {
+button {
     background-color: var(--red);
     color: var(--white);
     width: 360px;
@@ -12,7 +12,7 @@
     font-weight: bold;
 }
 
-.button:hover {
+button:hover {
     filter: brightness(1.5);
     cursor: pointer;
     transform: scale(1);

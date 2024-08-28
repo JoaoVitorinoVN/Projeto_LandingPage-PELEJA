@@ -1,34 +1,12 @@
 .footer {
-    color: var(--white);
     background-color: var(--black);
+    color: var(--white);
     padding: 35px;
     padding-top: 25px;
 }
 
-.footer-wave {
-    margin-top: -60px;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.footer-wave svg {
-    position: relative;
-    display: block;
-    width: calc(119% + 1.3px);
-    z-index: 1;
-    height: 62px;
-    border-bottom: 10px solid var(--black);
-}
-
-.footer-wave .shape-fill {
-    fill: #131313;
-}
-
 footer .content {
+    background-color: var(--black);
     margin-top: -1px;
     padding: 10px;
     color: var(--white);
