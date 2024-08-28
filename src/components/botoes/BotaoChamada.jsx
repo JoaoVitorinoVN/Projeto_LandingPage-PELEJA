@@ -4,7 +4,7 @@ import './BotaoChamada.css'
 
 const Button = ({ texto }) => {
     return (
-        <button>
+        <button className='button'>
             {texto}
         </button>
     )

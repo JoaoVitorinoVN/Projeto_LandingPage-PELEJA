@@ -7,10 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
-
-
 
 
 .conteudo-secao h2 {
@@ -92,6 +89,4 @@
 .formulario  button:active {
     scale: 0.8;
 }
-
-
 

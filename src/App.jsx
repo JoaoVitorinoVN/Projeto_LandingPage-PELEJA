@@ -8,7 +8,8 @@ import Whatsapp from './components/whatsapp/Whatsapp.jsx'
 import SecaoFormulario from './components/secoes/secaoFormulario/SecaoFormulario.jsx'
 import Autoridade from './components/secoes/section_autoridade/Autoridade.jsx'
 import Marcas from './components/secoes/section_marcas/Marcas.jsx'
-import Faq from './components/secoes/secaoFAQ/Faq.jsx'
+import Footer from './components/footer/Footer.jsx'
+
 
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
       <Autoridade />
       <Marcas />
       <SecaoProvaSocial />
-      <Faq />
       <SecaoFormulario />
+      <Footer />
       <Whatsapp />
     </>
 

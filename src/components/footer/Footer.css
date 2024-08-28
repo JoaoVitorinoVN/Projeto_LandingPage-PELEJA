@@ -1,0 +1,72 @@
+.footer {
+    color: var(--white);
+    background-color: var(--black);
+    padding: 35px;
+    padding-top: 25px;
+}
+
+.footer-wave {
+    margin-top: -60px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.footer-wave svg {
+    position: relative;
+    display: block;
+    width: calc(119% + 1.3px);
+    z-index: 1;
+    height: 62px;
+    border-bottom: 10px solid var(--black);
+}
+
+.footer-wave .shape-fill {
+    fill: #131313;
+}
+
+footer .content {
+    margin-top: -1px;
+    padding: 10px;
+    color: var(--white);
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+footer .content a,
+footer .content a:visited {
+    color: var(--white);
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+footer .content li {
+    display: flex;
+    transition: 500ms;
+    align-content: center;
+    align-items: center;
+}
+
+footer .content img {
+    width: 150px;
+}
+
+footer .content ul {
+    list-style: none;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+}
+.telefone {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
