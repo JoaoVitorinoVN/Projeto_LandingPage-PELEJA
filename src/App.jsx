@@ -7,6 +7,7 @@ import './css/Styles.css'
 import Whatsapp from './components/whatsapp/Whatsapp.jsx'
 import SecaoFormulario from './components/secoes/secaoFormulario/SecaoFormulario.jsx'
 import Autoridade from './components/secoes/section_autoridade/Autoridade.jsx'
+import Marcas from './components/secoes/section_marcas/Marcas.jsx'
 
 
 
@@ -17,7 +18,8 @@ function App() {
       <Header />
       <SecaoChamada />
       <Autoridade />
-
+      <Marcas />
+      <SecaoProvaSocial />
       <SecaoFormulario />
       <Whatsapp />
     </>
