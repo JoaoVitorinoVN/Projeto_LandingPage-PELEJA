@@ -4,7 +4,7 @@
 
 .accordion {
   width: 80%;
-  background-color: #F1BA0A;
+  background-color: var(--yellow);
   margin: 30px auto;
 }
 
@@ -15,7 +15,7 @@
 .title {
   height: auto;
   width: 100%;
-  background-color: #E9DA6E;
+  background-color: var(--lightyellow);
   color: #000000;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -23,7 +23,7 @@
   line-height: 1.5;
   font-weight: 800;
   padding: 15px;
-  border: 1px solid #E9DA6E;
+  border: 1px solid var(--lightyellow);
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
@@ -33,7 +33,7 @@
 }
 
 .title:hover {
-  background-color: #E9DA6E;
+  background-color: var(--lightyellow);
 }
 
 .content {
@@ -54,7 +54,7 @@
 .secao-faq {
   z-index: 2;
   min-height: 700px;
-  background-color: #F1BA0A;
+  background-color: var(--yellow);
   margin-top: -5px;
   width: 100%;
 }
@@ -84,7 +84,9 @@
   text-align: center;
   padding: 20px;
 }
-
+.p-nao-encontrou a{
+  color: var(--reddish);
+}
 
 
 

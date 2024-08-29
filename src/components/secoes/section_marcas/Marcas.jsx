@@ -7,7 +7,7 @@ const titulos = {titulo: 'Nossas Marcas', subtitulo: 'Conheça as marcas que rep
 
 function Marcas() {
   return (
-    <section className="section-marcas">
+    <section className="section-marcas" id="marcas">
       <div>
         <div className="box-titulo">
           <TituloSubtituloSecao titulos={titulos}/>
