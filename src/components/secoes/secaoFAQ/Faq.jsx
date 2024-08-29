@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { FaAngleDown } from 'react-icons/fa';
 import './Faq.css';
 import TituloSubtituloSecao from '../../titulos/TituloSubtituloSecao';
 
@@ -39,12 +38,7 @@ const FaqItem = ({ title, content }) => {
       >
         <span className="title-text">{title}</span>
         <div className="arrow-wrapper">
-          <FaAngleDown
-            style={{
-              transform: open ? 'rotate(180deg)' : 'rotate(0deg)',
-              transition: 'transform 0.3s ease'
-            }}
-          />
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#131313"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
         </div>
       </div>
       <div
@@ -83,7 +77,7 @@ const Faq = () => {
         />
       ))}
     </div>
-    <p className='p-nao-encontrou'>Não encontrou o que procurava? Entre em contato conosco e ficaremos felizes em ajudar</p>
+    <p className='p-nao-encontrou'>Não encontrou o que procurava? <a href="https://wa.me/5503499502590?text=Olá%20gostaria%20de%20mais%20informações" target="_blank">Entre em contato conosco e ficaremos felizes em ajudar!</a></p>
     </div>
     </section>
     

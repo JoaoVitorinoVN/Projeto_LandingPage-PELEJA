@@ -12,10 +12,9 @@ const Navegacao = () => {
     return (
         <nav>
             <ul>
-                <li><a href="#">Sobre PELEJA</a></li>
-                <li><a href="#">Mais vendidos</a></li>
+                <li><a href="#sobre">Sobre PELEJA</a></li>
+                <li><a href="#marcas">Marcas</a></li>
                 <li><DropdownMenu nome={"FAQ"} conteudo={FAQ}/></li>
-                <li><a href="#">Mais vendidos</a></li>
             </ul>
         </nav>
     )
