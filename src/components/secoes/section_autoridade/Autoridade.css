@@ -1,5 +1,6 @@
 
 .sectio-autoridade {
+    box-shadow: 0px 0px 10px var(--black);
     height: 850px;
 }
 .box-titulo{

@@ -18,7 +18,7 @@ const items = [
 
 function Autoridade() {
     return (
-        <section className='sectio-autoridade'> 
+        <section className='sectio-autoridade' id="sobre"> 
 
         <div className='box-section'>
             <div className='box-titulo'>
