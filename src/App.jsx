@@ -12,22 +12,26 @@ import Faq from './components/secoes/secaoFAQ/Faq.jsx'
 import Footer from './components/footer/Footer.jsx'
 import WaveTop from './components/ondas/WaveTop.jsx'
 import WaveBottom from './components/ondas/WaveBottom.jsx'
+import WithAnimation from './components/animation/WithAnimation.jsx'
 
 function App() {
+
+  const AnimatedAutoridade = WithAnimation(Autoridade);
+  const AnimatedWaveBottom = WithAnimation(WaveBottom);
 
   return (
     <>
       <Header />
       <SecaoChamada />
-      <Autoridade />
+      <AnimatedAutoridade />
       <Marcas />
-      <WaveBottom color="brown" />
+      <AnimatedWaveBottom color="brown" />
       <SecaoProvaSocial />
       <WaveBottom color="yellow" />
       <Faq />
       <WaveTop color="yellow" />
       <SecaoFormulario />
-      <WaveBottom color="black" />
+      <AnimatedWaveBottom color="black" />
       <Footer />
       <Whatsapp />
     </>
