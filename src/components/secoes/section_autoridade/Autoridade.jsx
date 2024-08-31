@@ -7,6 +7,7 @@ import Carrossel from './carrossel/Carrossel';
 import iconMissao from './img/icon-missao.png';
 import iconValores from './img/icon-valores.png';
 import iconVisao from './img/icon-visao.png';
+import WithAnimation from '../../animation/WithAnimation';
 
 const titulos = {titulo: 'Conheça a Peleja', subtitulo: 'Saiba um pouco sobre a nossa história'}
 
@@ -15,6 +16,8 @@ const items = [
     { id: 2, imgSrc: iconMissao, text: 'Colaboração' },
     { id: 3, imgSrc: iconValores, text: 'Foco no Cliente' },
 ];
+
+const AnimatedIcon = WithAnimation(IconItem);
 
 function Autoridade() {
     return (
@@ -37,7 +40,7 @@ function Autoridade() {
 
             <div className='box-icons'>
                 {items.map(item => (
-                    <IconItem key={item.id} imgSrc={item.imgSrc} text={item.text} />
+                    <AnimatedIcon key={item.id} imgSrc={item.imgSrc} text={item.text} />
                 ))}
             </div>
             </div>
