@@ -1,6 +1,9 @@
 import React from 'react'
 import './SecaoChamada.css'
 import BotaoChamada from '../../botoes/BotaoChamada';
+import WithAnimation from '../../animation/WithAnimation';
+
+const AnimatedButton = WithAnimation(BotaoChamada);
 
 import './SecaoChamada'
 const Section = () => {
@@ -13,7 +16,7 @@ const Section = () => {
                 <p>Representamos as melhores marcas e produtos de vários segmentos para seu negócio.</p>
             </div>
 
-            <BotaoChamada texto={"Peleje conosco!"}/>
+            <AnimatedButton texto={"Peleje conosco!"}/>
 
             </div>
         </section>

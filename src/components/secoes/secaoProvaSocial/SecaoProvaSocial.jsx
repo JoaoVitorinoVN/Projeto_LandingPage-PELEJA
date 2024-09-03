@@ -2,6 +2,7 @@ import React from 'react'
 import TituloSubtituloSecao from '../../titulos/TituloSubtituloSecao'
 import ProvaSocial from '../../clientes/ProvaSocial'
 import './secaoProvaSocial.css'
+import AnimatedTitles from '../../animation/AnimatedTitles'
 
 function SecaoProvaSocial() {
 
@@ -11,7 +12,7 @@ function SecaoProvaSocial() {
       <section className='secao-prova-social'>
       
         <div>
-          <TituloSubtituloSecao titulos={titulos} />
+          <AnimatedTitles titulos={titulos}/>
           <ProvaSocial />
         </div>
         </section>

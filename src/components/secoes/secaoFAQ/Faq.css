@@ -12,6 +12,7 @@
   margin-bottom: 0; /* Remove o espaço entre as caixas */
 }
 
+
 .title {
   height: auto;
   width: 100%;
@@ -29,11 +30,17 @@
   justify-content: space-between;
   align-items: center;
   user-select: none;
-  box-sizing: border-box; /* Garante que a largura total inclui bordas e padding */
+  box-sizing: border-box; 
+  transition: all 0.1s;
 }
 
 .title:hover {
-  background-color: var(--lightyellow);
+  background-color: var(--brown);
+  color: var(--white);
+}
+
+.title:active {
+  background-color: var(--brown);
 }
 
 .content {

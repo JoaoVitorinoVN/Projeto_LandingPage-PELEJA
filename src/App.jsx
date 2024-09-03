@@ -16,14 +16,13 @@ import WithAnimation from './components/animation/WithAnimation.jsx'
 
 function App() {
 
-  const AnimatedAutoridade = WithAnimation(Autoridade);
   const AnimatedWaveBottom = WithAnimation(WaveBottom);
 
   return (
     <>
       <Header />
       <SecaoChamada />
-      <AnimatedAutoridade />
+      <Autoridade />
       <Marcas />
       <AnimatedWaveBottom color="brown" />
       <SecaoProvaSocial />

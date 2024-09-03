@@ -1,7 +1,7 @@
 
-.sectio-autoridade {
+.section-autoridade {
     box-shadow: 0px 0px 10px var(--black);
-    height: 850px;
+    height: 100vh;
 }
 .box-titulo{
     text-align: center;

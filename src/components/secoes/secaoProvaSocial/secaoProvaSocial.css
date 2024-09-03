@@ -4,10 +4,15 @@
     height: 900px;
 }
 
-.secao-prova-social h1,
+.secao-prova-social > div h1,
 h2 {
     color: #F5F5F5;
     font-weight: 800;
+}
+
+.secao-prova-social > div h2 {
+    color: #F5F5F5;
+    font-weight: 600;
 }
 
 .secao-prova-social hr {

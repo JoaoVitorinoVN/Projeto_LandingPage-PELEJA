@@ -8,6 +8,7 @@ import iconMissao from './img/icon-missao.png';
 import iconValores from './img/icon-valores.png';
 import iconVisao from './img/icon-visao.png';
 import WithAnimation from '../../animation/WithAnimation';
+import AnimatedTitles from '../../animation/AnimatedTitles';
 
 const titulos = {titulo: 'Conheça a Peleja', subtitulo: 'Saiba um pouco sobre a nossa história'}
 
@@ -21,12 +22,10 @@ const AnimatedIcon = WithAnimation(IconItem);
 
 function Autoridade() {
     return (
-        <section className='sectio-autoridade' id="sobre"> 
+        <section className='section-autoridade' id="sobre"> 
 
         <div className='box-section'>
-            <div className='box-titulo'>
-                <TituloSubtituloSecao titulos={titulos}/>
-            </div>
+            <AnimatedTitles titulos={titulos}/>
 
             <div className='box-info'>
                 <p className='texto'>

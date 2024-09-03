@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Faq.css';
-import TituloSubtituloSecao from '../../titulos/TituloSubtituloSecao';
+import AnimatedTitles from '../../animation/AnimatedTitles';
 
 
 const data = [
@@ -67,7 +67,8 @@ const Faq = () => {
 
       <div>
 
-    <TituloSubtituloSecao titulos={titulos}/>
+    <AnimatedTitles titulos={titulos}/>
+    
     <div className="accordion">
       {data.map((item, index) => (
         <FaqItem
