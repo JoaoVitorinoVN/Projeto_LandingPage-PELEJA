@@ -13,6 +13,7 @@ import Footer from './components/footer/Footer.jsx'
 import WaveTop from './components/ondas/WaveTop.jsx'
 import WaveBottom from './components/ondas/WaveBottom.jsx'
 import WithAnimation from './components/animation/WithAnimation.jsx'
+import Segmentos  from './components/secoes/secaoSegmentos/Segmentos.jsx'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Header />
       <SecaoChamada />
       <Autoridade />
+      <Segmentos />
       <Marcas />
       <AnimatedWaveBottom color="brown" />
       <SecaoProvaSocial />
