@@ -94,4 +94,44 @@
 }
 
 
+@media (max-width: 900px) {
+    .secao-formulario {
+        height: 100vh;
+    }
+
+    .conteudo-secao {
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-conteudo {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .titulo-conteudo h2, h3 {
+        margin: 20px;
+    }
+
+    .titulo-conteudo h2 {
+        font-size: 50px;
+        max-width: 400px;
+    }
+
+    .titulo-conteudo h3 {
+        max-width: 400px;
+    }
+
+    .formulario {
+        margin-top: -80px;
+    }
+
+}
+
+* {
+    border: 1px solid red;
+}
 
