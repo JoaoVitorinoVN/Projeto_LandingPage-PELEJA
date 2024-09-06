@@ -8,12 +8,24 @@
     border-radius: 20px;
     user-select: none;
     transition: 500ms;
-    transform: scale(0.9);
     font-weight: bold;
 }
 
 .button:hover {
-    filter: brightness(1.5);
+    background-color: var(--reddish);
     cursor: pointer;
+    scale: 1.1;
+} .button:active {
+    scale: 1;
+}
+
+.formulario .button {
     transform: scale(1);
+}
+.formulario .button:hover {
+    transform: scale(0.9);
+}
+
+.formulario .button:active {
+    scale: 0.8;
 }

@@ -22,7 +22,7 @@ const AnimatedIcon = WithAnimation(IconItem);
 
 function Autoridade() {
     return (
-        <section className='section-autoridade' id="sobre"> 
+        <section className='section-autoridade' id="autoridade"> 
 
         <div className='box-section'>
             <AnimatedTitles titulos={titulos}/>

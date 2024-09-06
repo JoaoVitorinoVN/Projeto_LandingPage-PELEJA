@@ -66,7 +66,7 @@ function Carrossel() {
   const titulos = {titulo: 'Para pessoas exigentes: PELEJA!', subtitulo: 'Venha conhecer nossos segmentos representados!'}
 
   return (
-    <section className={styles.sectionSegmentos}>
+    <section className={styles.sectionSegmentos} id='segmentos'>
 
       <AnimatedTitles titulos={titulos}/>
 
