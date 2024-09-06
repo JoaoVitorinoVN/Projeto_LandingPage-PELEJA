@@ -32,6 +32,7 @@
   user-select: none;
   box-sizing: border-box; 
   transition: all 0.1s;
+  margin-bottom: 2px;
 }
 
 .title:hover {
@@ -54,7 +55,7 @@
   color: #000000; /* Garante que o texto é preto */
   font-size: 18px; /* Aumenta o tamanho da fonte para melhorar a legibilidade */
   line-height: 1.5;
-  padding: 15px;
+  padding: 10px;
   margin: 0; /* Remove qualquer margem adicional */
 }
 
@@ -68,21 +69,6 @@
 
 .secao-faq .titulos {
   padding: 0px;
-
-
-  h1 {
-    width: 100%;
-    text-align: end;
-    font-size: 60px;
-  }
-
-  hr {
-    margin-right: 0px;
-    height: 1px;
-  }
-
-  margin-right: 30px;
-
 }
 
 .p-nao-encontrou {
@@ -94,6 +80,30 @@
 .p-nao-encontrou a{
   color: var(--reddish);
 }
+
+
+@media (max-width: 480px) {
+
+  .p-nao-encontrou {
+    font-size: 15px;
+  }
+
+  .accordion {
+    margin: 10px auto;
+  }
+
+  .content-text {
+    color: #000000; /* Garante que o texto é preto */
+    font-size: 15px; 
+    line-height: 1.5; 
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+}
+
 
 
 

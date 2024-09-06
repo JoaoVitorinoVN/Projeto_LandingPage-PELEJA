@@ -1,10 +1,40 @@
 import React, { useState, useEffect } from 'react';
 import './provaSocial.css';
 import info from './info.json';
+import {Swiper, SwiperSlide} from 'swiper/react';
+
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import 'swiper/css/scrollbar'
+
 
 function ProvaSocial() {
     const [data, setData] = useState([]);
     const [error, setError] = useState(null);
+
+    const[sliderPerView, setSliderPerView] = useState();
+
+    useEffect(() => {
+        function handleResize(){
+            if(window.innerWidth < 720) {
+                setSliderPerView(1);
+            } else if(window.innerWidth < 900) {
+                setSliderPerView(2)
+            } else {
+                setSliderPerView(3)
+            }
+        }
+
+        handleResize();
+
+        window.addEventListener("resize", handleResize)
+
+        return () => {
+            window.removeEventListener("resize", handleResize)
+        }
+
+    }, []);
 
 
 
@@ -30,8 +60,14 @@ function ProvaSocial() {
 
     return (
         <div className='prova-social'>
+            <Swiper
+            pagination={true}
+            slidesPerView={sliderPerView}
+            className='slider'
+            >
             {data.map((item, index) => (
-                <div key={index} className='box-prova'>
+                <SwiperSlide key={index} className='slide'>
+                <div className='box-prova'>
                     <div className='fotoCliente'>
                         <img src={item['foto-cliente']} alt="Cliente" />
                     </div>
@@ -39,7 +75,9 @@ function ProvaSocial() {
                         {item['prova-social']}
                     </p>
                 </div>
+                </SwiperSlide>
             ))}
+            </Swiper>
         </div>
     );
 }

@@ -4,25 +4,30 @@
 }
 
 .prova-social {
-    width: 900px;
+    max-width: 1440px;
     margin: auto;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 200px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-
+    margin-top: 100px;
 }
 
-.box-prova {
+
+.slide{
+    padding-top: 100px;
+}
+
+ .box-prova {
     width: 260px;
     height: 330px;
     background-color: #E9DA6E;
     text-align: center;
     border-radius: 20px;
     position: relative;
+    margin: auto;
 }
+
 
 .fotoCliente {
     border: 10px solid #E9DA6E;
@@ -52,3 +57,37 @@
     font-weight: bolder;
 }
 
+
+@media (max-width: 1440px) {
+
+    .prova-social {
+        margin-top: 80px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .prova-social {
+        margin-top: 60px;
+    }
+
+}
+
+
+
+@media (max-width: 720px) {
+
+    .prova-social {
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .prova-social {
+        margin-top: 10px;
+    }
+    
+}

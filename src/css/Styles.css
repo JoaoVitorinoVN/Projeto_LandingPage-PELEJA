@@ -17,6 +17,11 @@
     font-family: "Inter", sans-serif;
 }
 
+section {
+    gap: 100px;
+    min-height: 100vh;
+}
+
 
 section > div:nth-child(1) {
     max-width: 1440px;
@@ -26,5 +31,39 @@ section > div:nth-child(1) {
 header > div {
     max-width: 1440px;
     margin: auto;
+}
+
+@media (max-width: 1440px) {
+
+    .titulos h1 {
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    
+}
+
+
+
+@media (max-width: 720px) {
+    .titulos h1 {
+        font-size: 45px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .titulos h1 {
+        font-size: 35px;
+    }
+
+    .titulos h2 {
+        font-size: 20px;
+    }
+
 }
 

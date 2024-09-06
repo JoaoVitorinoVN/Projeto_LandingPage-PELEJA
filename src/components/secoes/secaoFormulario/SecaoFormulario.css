@@ -113,13 +113,13 @@
         justify-content: space-evenly;
     }
 
-    .titulo-conteudo h2 {
+    .titulo-conteudo  > h2 {
         font-size: 50px;
         max-width: 400px;
         margin: 0px 10px 0px 0px;
     }
 
-    .titulo-conteudo h3 {
+    .titulo-conteudo > h3 {
         max-width: 400px;
         margin: 0px 0px 0px 10px;
     }
