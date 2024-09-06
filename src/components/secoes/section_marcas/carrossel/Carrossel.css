@@ -6,20 +6,24 @@
     max-width: 1440px;
     width: 70%;
     position: relative;
+    height: 520px;
+    color: var(--brown);
+}
+.carrossel:hover{
+    cursor: grab;
 }
 .carrossel-item {
     background-color: #ffd54a;
+    border-bottom: 20px solid ;
     border-radius: 18px;
-    padding: 20px;
+    padding: 36px 24px;
     text-align: center;
-    height: 380px;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
     transition: 0.2s all ease-in-out;
 }
 
@@ -34,8 +38,8 @@
 
 .carrossel-imagem {
     border-radius: 50%;
-    width: 124px;
-    height: 124px;
+    width: 154px;
+    height: 154px;
     padding: 6px;
     object-fit: cover;
     margin-bottom: 15px;
@@ -63,6 +67,10 @@
 }
 
 h4{
+    font-size: 24px;
     font-weight: 800;
-    font-size: 20px;
+}
+.carrossel-item p{
+    padding: 0 12px;
+    text-align: justify;
 }
