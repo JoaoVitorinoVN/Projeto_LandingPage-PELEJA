@@ -85,16 +85,6 @@
     width: 100%;
 }
 
-.formulario button:hover {
-    background-color: #520606;
-    transform: scale(0.9);
-}
-
-.formulario  button:active {
-    scale: 0.8;
-}
-
-
 @media (max-width: 1440px) {
 
     .conteudo-secao {

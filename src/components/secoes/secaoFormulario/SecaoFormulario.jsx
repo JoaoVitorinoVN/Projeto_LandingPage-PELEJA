@@ -58,7 +58,7 @@ function SecaoFormulario() {
 
 
     return (
-        <section className='secao-formulario'>
+        <section className='secao-formulario' id='secao-formulario'>
             <div className='conteudo-secao'>
                 <div className='titulo-conteudo'>
                     <h2>Deixe-nos PELEJAR por você!</h2>
