@@ -3,10 +3,7 @@ import './provaSocial.css';
 import info from './info.json';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
+
 
 
 function ProvaSocial() {
@@ -61,8 +58,9 @@ function ProvaSocial() {
     return (
         <div className='prova-social'>
             <Swiper
-            pagination={true}
+            pagination={{clickable:true}}
             slidesPerView={sliderPerView}
+            navigation
             className='slider'
             >
             {data.map((item, index) => (

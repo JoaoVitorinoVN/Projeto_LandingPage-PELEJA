@@ -13,12 +13,16 @@
     margin-top: 100px;
 }
 
+.slider {
+    width: 100%;
+}
 
-.slide{
+
+.slide {
     padding-top: 100px;
 }
 
- .box-prova {
+.box-prova {
     width: 260px;
     height: 330px;
     background-color: #E9DA6E;
@@ -57,6 +61,28 @@
     font-weight: bolder;
 }
 
+.prova-social .swiper-button-prev,
+.prova-social .swiper-button-next {
+    color: var(--yellow);
+}
+
+.prova-social .swiper-button-prev:hover,
+.prova-social .swiper-button-next:hover {
+    color: var(--white);
+}
+
+.prova-social .swiper-pagination-bullet {
+    background-color: var(--black);
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.prova-social .swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color: var(--black);
+}
+
+
 
 @media (max-width: 1440px) {
 
@@ -89,5 +115,5 @@
     .prova-social {
         margin-top: 10px;
     }
-    
+
 }
