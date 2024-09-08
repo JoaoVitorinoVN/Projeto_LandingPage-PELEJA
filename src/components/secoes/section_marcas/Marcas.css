@@ -1,9 +1,15 @@
 .section-marcas {
   align-items: center;
-  height: 900px;
   padding: 20px;
   background-color: var(--white);
+  margin-bottom: 54px;
 }
 
+@media (max-width:480px){
+  .section-marcas{
+    height: 540px;
+    margin-bottom: 0px;
+  }
+}
 
   

@@ -24,10 +24,23 @@ export default () => {
     <Swiper className="carrossel"
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={20}
-      slidesPerView={3}
       pagination={{ clickable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
+      breakpoints={{
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+        },
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      }}
     >
       <SwiperSlide className="card-carrossel">
         <div className="carrossel-item">
