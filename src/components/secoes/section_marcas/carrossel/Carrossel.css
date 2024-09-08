@@ -6,17 +6,17 @@
     max-width: 1440px;
     width: 70%;
     position: relative;
-    height: 520px;
     color: var(--brown);
 }
-.carrossel:hover{
+
+.carrossel:hover {
     cursor: grab;
 }
+
 .carrossel-item {
     background-color: #ffd54a;
-    border-bottom: 20px solid ;
     border-radius: 18px;
-    padding: 36px 24px;
+    padding: 24px 12px;
     text-align: center;
     margin: auto;
     display: flex;
@@ -27,7 +27,7 @@
     transition: 0.2s all ease-in-out;
 }
 
-.carrossel-item:hover{
+.carrossel-item:hover {
     background-color: #ffdd62;
 }
 
@@ -38,22 +38,21 @@
 
 .carrossel-imagem {
     border-radius: 50%;
-    width: 154px;
-    height: 154px;
+    width: 136px;
+    height: 136px;
     padding: 6px;
     object-fit: cover;
     margin-bottom: 15px;
     background-color: #64cccc;
 }
 
-.carrossel .swiper-button-next,
-.carrossel .swiper-button-prev {
-    float: left;
-    color: var(--black);
-    transform: scale(0.5);
-    margin: 0 -24px;
+.swiper-pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
-.carrossel .swiper-pagination-bullet {
+
+.swiper-pagination-bullet {
     width: 8px;
     height: 8px;
     background-color: var(--black);
@@ -61,16 +60,43 @@
     transition: opacity 0.3s;
 }
 
-.carrossel .swiper-pagination-bullet-active {
+.swiper-pagination-bullet-active {
     opacity: 1;
     background-color: var(--black);
 }
 
-h4{
-    font-size: 24px;
+h4 {
+    font-size: 20px;
     font-weight: 800;
 }
-.carrossel-item p{
+
+.carrossel-item p {
     padding: 0 12px;
     text-align: justify;
+}
+
+/* Ajustes para responsividade */
+@media (max-width: 768px) {
+    .carrossel {
+        width: 90%; /* Ajusta a largura para telas menores */
+    }
+    .swiper-pagination {
+        bottom: -15px; /* Ajusta os bullets um pouco mais alto em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .carrossel {
+        height: 400px; /* Ajusta a altura para telas pequenas */
+        width: 90%;
+        margin: auto;
+    }
+
+    .carrossel-item {
+        padding: 20px;
+    }
+
+    .swiper-pagination {
+        bottom: -10px; /* Ajusta ainda mais a posição dos bullets */
+    }
 }
