@@ -4,7 +4,7 @@
 }
 
 .prova-social {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: auto;
     justify-content: space-evenly;
     align-items: center;
@@ -25,16 +25,22 @@
 .box-prova {
     width: 260px;
     height: 330px;
-    background-color: #E9DA6E;
+    background-color: var(--lightyellow);
     text-align: center;
     border-radius: 20px;
     position: relative;
     margin: auto;
+    transition: all 0.1s;
+}
+
+.box-prova:hover {
+    cursor: grab;
+    background-color: var(--lightyellowlight);
 }
 
 
 .fotoCliente {
-    border: 10px solid #E9DA6E;
+    border: 10px solid var(--lightyellow);
     width: 160px;
     height: 160px;
     background-color: gray;
@@ -64,6 +70,10 @@
 .prova-social .swiper-button-prev,
 .prova-social .swiper-button-next {
     color: var(--yellow);
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 .prova-social .swiper-button-prev:hover,
@@ -80,6 +90,12 @@
 .prova-social .swiper-pagination-bullet-active {
     opacity: 1;
     background-color: var(--black);
+}
+
+
+.prova-social .swiper-button-next::after,
+.prova-social .swiper-button-prev::after {
+    font-size: 25px;
 }
 
 

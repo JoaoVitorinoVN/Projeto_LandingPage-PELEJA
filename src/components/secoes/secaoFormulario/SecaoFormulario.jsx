@@ -36,7 +36,7 @@ function SecaoFormulario() {
 
         if (formData.name === '' || formData.phone === '' || formData.email === '') {
 
-            alert("É necessario o preenchimento de todos os campos.")
+            console.log("É necessario o preenchimento de todos os campos.")
         } else {
 
             emailjs.send(service_id, template_id, templateParams, public_key).then(() => {
@@ -47,7 +47,7 @@ function SecaoFormulario() {
                     email: ''
                 })
 
-                alert("Obrigado pelo interesse, em pouco tempo entraremos em contato!")
+                console.log("Obrigado pelo interesse, em pouco tempo entraremos em contato!")
                 console.log("Email enviado com sucesso!")
             })
                 .catch((err) => {

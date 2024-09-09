@@ -34,6 +34,7 @@
   display: block;
   width: calc(105% + 1.3px);
   height: 80px;
+  padding: 20px 0px 0px 0px;
 }
 
 .yellow {
@@ -45,4 +46,3 @@
 .black {
   fill: var(--black);
 }
-
