@@ -1,29 +1,37 @@
 .carrossel {
+    border: 1px solid red;
     margin: auto;
+    padding: 0 12px;
     display: flex;
     flex-direction: row;
-    padding: 24px;
     max-width: 1440px;
-    width: 70%;
+    width: 80%;
     position: relative;
     color: var(--brown);
+    overflow: hidden;
 }
 
 .carrossel:hover {
     cursor: grab;
 }
 
+.card-carrossel{
+    padding: 0 14px;
+}
+
 .carrossel-item {
+    width: 100%;
+    height: 392px;
     background-color: #ffd54a;
     border-radius: 18px;
-    padding: 24px 12px;
+    padding: 20px;
     text-align: center;
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
     transition: 0.2s all ease-in-out;
 }
 
@@ -31,19 +39,12 @@
     background-color: #ffdd62;
 }
 
-.carrossel-wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
 .carrossel-imagem {
     border-radius: 50%;
     width: 136px;
     height: 136px;
-    padding: 6px;
     object-fit: cover;
     margin-bottom: 15px;
-    background-color: #64cccc;
 }
 
 .swiper-pagination {
@@ -62,7 +63,27 @@
 
 .swiper-pagination-bullet-active {
     opacity: 1;
-    background-color: var(--black);
+    background-color: var(--brown);
+}
+
+.swiper-button-next {
+    color: red;
+    right: -14px;
+    width: 50px;
+    height: 50px;
+}
+
+.swiper-button-prev {
+    color: red;
+    left: -14px;
+    width: 50px;
+    height: 50px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 16px;
+    color: black;
 }
 
 h4 {
@@ -75,28 +96,34 @@ h4 {
     text-align: justify;
 }
 
-/* Ajustes para responsividade */
 @media (max-width: 768px) {
     .carrossel {
-        width: 90%; /* Ajusta a largura para telas menores */
+        width: 90%;
+        height: 440px;
+        padding: 0 10px;
+    }
+    .carrossel-item{
+        height: 400px;
     }
     .swiper-pagination {
-        bottom: -15px; /* Ajusta os bullets um pouco mais alto em telas menores */
+        bottom: -15px;
     }
 }
 
 @media (max-width: 480px) {
     .carrossel {
-        height: 400px; /* Ajusta a altura para telas pequenas */
+        height: 460px;
         width: 90%;
         margin: auto;
     }
 
     .carrossel-item {
+        width: 90%;
+        height: 420px;
         padding: 20px;
     }
 
     .swiper-pagination {
-        bottom: -10px; /* Ajusta ainda mais a posição dos bullets */
+        bottom: -10px;
     }
 }
