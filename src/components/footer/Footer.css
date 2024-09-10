@@ -5,7 +5,12 @@
     padding-top: 25px;
 }
 
+* {
+    border: 1px solid red;
+}
+
 footer .content {
+    gap: 10px;
     background-color: var(--black);
     margin: auto;
     padding: 10px;
@@ -22,7 +27,6 @@ footer .content a,
 footer .content a:visited {
     color: var(--white);
     text-decoration: none;
-    margin-left: 10px;
 }
 
 footer .content li {
@@ -39,12 +43,27 @@ footer .content img {
 footer .content ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     width: 60%;
     align-items: center;
+    align-content: center;
     justify-content: space-around;
 }
+
 .telefone {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+@media (max-width: 860px) {
+    footer .content ul {
+        gap: 10px;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    footer .content li {
+        flex-direction: column;
+    }
 }

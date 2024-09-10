@@ -13,7 +13,7 @@ const Section = () => {
     
     return (
         <section className='secao-chamada'>
-            <div className='secao'>
+            <div className='conteudo'>
 
             <div>
                 <h1>PELEJANDO POR VOCÊ. PODE CONFIAR!</h1>
