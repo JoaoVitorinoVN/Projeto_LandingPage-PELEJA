@@ -1,5 +1,7 @@
 .header {
     background-color: var(--black);
+    position: fixed;
+    z-index: 2;
     width: 100vw;
 }
 
@@ -67,11 +69,6 @@
 @media (max-width: 730px) {
     .cabecalho img {
         width: 100px;
-    }
-
-    .header {
-        position: fixed;
-        z-index: 2;
     }
 
     .cabecalho {
