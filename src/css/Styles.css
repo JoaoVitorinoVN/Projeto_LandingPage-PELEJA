@@ -67,5 +67,9 @@ header > div {
         font-size: 20px;
     }
 
+    .secao-formulario {
+        height: 800px;
+    }
+
 }
 

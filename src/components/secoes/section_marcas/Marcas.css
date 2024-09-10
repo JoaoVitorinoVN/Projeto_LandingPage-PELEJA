@@ -1,15 +1,22 @@
 .section-marcas {
   align-items: center;
   padding: 20px;
-  background-color: var(--white);
-  margin-bottom: 54px;
+  background-color: white;
+  margin-bottom: 84px;
+  min-height: 0vh;
 }
 
-@media (max-width:480px){
-  .section-marcas{
-    height: 540px;
-    margin-bottom: 0px;
+@media (max-width: 900px) { /* Exemplo para telas com altura máxima de 600px */
+  .section-marcas {
+    height: auto; /* Ajusta a altura ao conteúdo */
+    padding-bottom: 10px; /* Diminuir o padding inferior para telas menores */
+    margin-bottom: 96px;
   }
 }
 
-  
+@media (max-width: 480px) { /* Para telas ainda menores */
+  .section-marcas {
+    height: auto; /* Ajuste automático */
+    margin-bottom: 96px;
+  }
+}

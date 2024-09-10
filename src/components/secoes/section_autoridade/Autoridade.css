@@ -46,10 +46,12 @@
     justify-content: space-evenly;
     width: 100%;
     margin-bottom: 54px;
+    /* Removi a borda para visualização */
+    flex-wrap: wrap; /* Isso permite que os ícones se ajustem e fiquem em várias linhas */
 }
 
 .icon-item {
-    width: 162px;
+    width: 150px; /* Ajusta a largura para caber melhor em telas menores */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -91,7 +93,7 @@
     }
 
     .icon-item {
-        width: 116px;
+        width: 100px; /* Diminui a largura dos ícones para caber melhor em telas pequenas */
     }
 
     .icon-image {

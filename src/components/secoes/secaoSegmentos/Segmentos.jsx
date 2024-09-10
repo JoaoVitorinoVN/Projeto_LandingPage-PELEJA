@@ -16,6 +16,7 @@ function Carrossel() {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
+    arrows: false,
     slidesToScroll: 1,
     responsive: [
       {
@@ -24,7 +25,7 @@ function Carrossel() {
           slidesToShow: 2,
           slidesToScroll: 1,
           dots: true,
-          arrows: true
+          arrows: false
         }
       },
       {
@@ -49,18 +50,6 @@ function Carrossel() {
     {
       name: 'SuperMarket',
       img: supermarketImg
-    },
-    {
-      name: 'Alimentos',
-      img: foodImg
-    },
-    {
-      name: 'Pets',
-      img: petsImg
-    },
-    {
-      name: 'SuperMarket',
-      img: supermarketImg
     }
   ];
 
@@ -68,7 +57,9 @@ function Carrossel() {
 
   return (
     <section className={styles.sectionSegmentos} id='segmentos'>
+
       <AnimatedTitles titulos={titulos}/>
+
       <div className={styles.carouselContainer}>
         <Slider {...settings}>
           {data.map((d) => (
