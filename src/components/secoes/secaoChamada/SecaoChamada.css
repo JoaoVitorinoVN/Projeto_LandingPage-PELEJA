@@ -9,7 +9,7 @@
 }
 
 
-.secao {
+.secao-chamada .conteudo {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -18,14 +18,34 @@
     height: 800px;
 }
 
-.secao h1 {
+.secao-chamada .conteudo h1 {
     font-size: 70px;
     color: var(--brown);
     margin-bottom: 5vh;
 }
 
-.secao p {
+.secao-chamada .conteudo p {
     color: #FFFBDE;
     text-shadow: 0px 4px 4px #00000040;
     font-size: 30px;
+}
+
+@media (max-width: 730px) {
+    .secao-chamada .conteudo h1,
+    .secao-chamada .conteudo p {
+        max-width: 80%;
+        margin: 10px auto;
+    }
+
+    .secao-chamada .conteudo h1 {
+        font-size: 40px;
+    }.secao-chamada .conteudo p {
+        font-size: 20px;
+    }
+
+    .secao-chamada .button {
+        color: var(--white);
+        width: 300px;
+        font-size: 25px;
+    }
 }

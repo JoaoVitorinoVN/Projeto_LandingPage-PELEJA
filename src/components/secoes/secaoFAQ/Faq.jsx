@@ -63,7 +63,7 @@ const titulos = { titulo: "Perguntas frequentes", subtitulo: "" }
 const Faq = () => {
   return (
 
-    <section className='secao-faq'>
+    <section className='secao-faq' id='faq'>
 
       <div>
 
