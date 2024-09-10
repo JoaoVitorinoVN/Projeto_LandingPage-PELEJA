@@ -19,10 +19,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: var(--white);
-}
-
 section {
     gap: 100px;
     min-height: 100vh;
@@ -69,6 +65,10 @@ header > div {
 
     .titulos h2 {
         font-size: 20px;
+    }
+
+    .secao-formulario {
+        height: 800px;
     }
 
 }
