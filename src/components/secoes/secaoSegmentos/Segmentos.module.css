@@ -23,7 +23,7 @@
 .carouselContent {
   display: flex;
   flex-direction: column;
-  justify-content: between;
+  justify-content: space-between;
   height: 100%;
 }
 
