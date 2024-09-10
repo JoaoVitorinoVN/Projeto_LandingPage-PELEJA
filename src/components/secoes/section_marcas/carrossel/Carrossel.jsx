@@ -12,7 +12,8 @@ export default () => {
     <Swiper
       className="carrossel"
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={20}
+      slidesPerGroup={1}
+      loop={true}
       pagination={{ clickable: true }}
       navigation={true}
       onSwiper={(swiper) => console.log(swiper)}
@@ -20,7 +21,7 @@ export default () => {
       breakpoints={{
         480: {
           slidesPerView: 1,
-          spaceBetween: 10,
+          spaceBetween: 0,
         },
         768: {
           slidesPerView: 2,
