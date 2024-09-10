@@ -23,14 +23,15 @@ function Carrossel() {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          dots: true
+          dots: true,
+          arrows: true
         }
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
         }
       }
     ]
@@ -67,23 +68,21 @@ function Carrossel() {
 
   return (
     <section className={styles.sectionSegmentos} id='segmentos'>
-
       <AnimatedTitles titulos={titulos}/>
-
-    <div className={styles.carouselContainer}>
-      <Slider {...settings}>
-        {data.map((d) => (
-          <div key={d.name} className={styles.carouselItem}>
-            <div className={styles.carouselImageContainer}>
-              <img src={d.img} alt={d.name} className={styles.carouselImage} />
+      <div className={styles.carouselContainer}>
+        <Slider {...settings}>
+          {data.map((d) => (
+            <div key={d.name} className={styles.carouselItem}>
+              <div className={styles.carouselContent}>
+                <div className={styles.carouselImageContainer}>
+                  <img src={d.img} alt={d.name} className={styles.carouselImage} />
+                </div>
+                <button className={styles.carouselButton}>{d.name}</button>
+              </div>
             </div>
-            <div className="flex flex-col items-center justify-center gap-4 p-4">
-              <button className={styles.carouselButton}>{d.name}</button>
-            </div>
-          </div>
-        ))}
-      </Slider>
-    </div>
+          ))}
+        </Slider>
+      </div>
     </section>
   );
 }
