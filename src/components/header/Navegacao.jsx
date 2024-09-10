@@ -8,6 +8,7 @@ const Navegacao = () => {
                 <li><Ancora target="#autoridade">Sobre nós</Ancora></li>
                 <li><Ancora target="#segmentos">Segmentos</Ancora></li>
                 <li><Ancora target="#marcas">Marcas representadas</Ancora></li>
+                <li><Ancora target="#provasocial">Opiniões</Ancora></li>
                 <li><Ancora target="#faq">FAQ</Ancora></li>
             </ul>
         </nav>

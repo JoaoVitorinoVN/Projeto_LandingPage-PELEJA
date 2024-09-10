@@ -17,6 +17,7 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
+    scroll-margin-top: 100px;
 }
 
 body {

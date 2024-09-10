@@ -8,7 +8,7 @@ function SecaoProvaSocial() {
   const titulos = { titulo: "Para clientes exigentes: PELEJA!", subtitulo: "Venha conhecer alguns dos nossos produtos mais vendidos!" }
 
   return (
-      <section className='secao-prova-social'>
+    <section className='secao-prova-social' id="provasocial">
       
         <div>
           <AnimatedTitles titulos={titulos}/>
