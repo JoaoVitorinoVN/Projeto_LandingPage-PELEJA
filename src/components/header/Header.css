@@ -65,7 +65,7 @@
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+
     gap: 5px;
 }
 
@@ -75,7 +75,7 @@
 }
 
 
-@media (max-width: 730px) {
+@media (max-width: 1000px) {
     .cabecalho img {
         width: 100px;
     }
