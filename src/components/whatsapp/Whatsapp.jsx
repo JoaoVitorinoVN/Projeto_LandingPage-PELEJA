@@ -4,7 +4,7 @@ import logo from '../../assets/pelejaIcon.png'
 
 const Whatsapp = () => {
     const whatsappAssets = {
-        numero: "03499999999",
+        numero: "5503499502590",
         nome: "Peleja",
         status: "Resposta em aproximadamente 1 hora",
         mensagem: "Olá! Como posso ajudar?",

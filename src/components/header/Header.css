@@ -94,6 +94,7 @@
     }
 
     .dropdownMenu ul {
+        box-shadow: 1px 1px 5px var(--black);
         padding: 5px;
         position: absolute;
         flex-direction: column;
